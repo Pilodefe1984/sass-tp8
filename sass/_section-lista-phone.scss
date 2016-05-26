@@ -1,0 +1,144 @@
+.cabecera-lista {
+	text-align: center;
+	div {
+		width: 300px;
+		margin: auto;
+		text-align: center;
+		font-size: 50px;
+		color: $color-boton-iconos; 
+	}
+
+	h2 {
+		font-family: $fuente-titulo;
+		color: $color-text;
+		font-weight: $titulo-bold;
+		text-transform: capitalize;
+		font-size: 35px;
+	}
+
+	p {
+		margin-top: 20px;
+		font-family: $fuente-parrafo;
+		color: $color-parrafo;
+		font-size: 12px;
+	}
+}
+
+.content-list-phone {
+	width: 33%;
+	position: relative;
+    top: -270px;
+    right: 12px;
+	display: inline-block;
+}
+
+// css base para las listas
+.content-li-phone {
+	margin-top:50px;
+	text-align: right;
+	display:inline-block;
+	
+	h2 {
+		font-family: $fuente-titulo;
+		text-transform: uppercase;
+		font-size: 14px;
+		color: $color-text;
+		font-weight: $titulo-bold;
+		letter-spacing: 2px;
+		display: inline-block;
+	}
+	div {
+			width: 40px;
+			height: 40px;
+			border: 3px solid $color-boton-iconos;
+			border-radius: 50%;
+			display: inline-block;
+			color: $color-boton-iconos;
+			font-size: 20px;
+    		padding-right: 9px;
+    		padding-top: 7px;
+		}
+	p {
+		font-family: $fuente-parrafo;
+		color: $color-parrafo;
+		font-size: 12px;
+		padding-right: 48px;
+	}
+}
+
+// lista left
+.one {
+	@extend .content-li-phone;
+}
+
+.two {
+	@extend .content-li-phone;
+	div.ion-ios-upload-outline {
+		padding-right: 11px;
+	}
+}
+
+.three {
+	@extend .content-li-phone;
+	div.ion-heart {
+		padding-right: 9.5px;
+    	padding-top: 9px;
+	}
+}
+
+// telefono
+
+.content-phone {
+	margin-top:50px;
+	width: 33%;
+	display: inline-block;
+	div {
+		background-image: url("../assets/iphone2.png");
+    	background-repeat: no-repeat;
+    	background-size: contain;
+    	height: 590px;
+    	width: 300px;
+    	margin: auto;
+	}
+}
+
+//lista right
+
+.one-right {
+	@extend .content-li-phone;
+	text-align: left;
+	div {
+		padding-top: 7px;
+    	padding-left: 9px;
+	}
+	p {
+		padding-right: 0px;
+		padding-left: 45px;
+	}
+}
+
+.two-right {
+	@extend .content-li-phone;
+	text-align: left;
+	div{
+		padding-top: 7px;
+    	padding-left: 12px;
+	}
+	p {
+		padding-right: 0px;
+		padding-left: 45px;
+	}
+}
+
+.three-right {
+	@extend .content-li-phone;
+	text-align: left;
+	div{
+		padding-top: 9px;
+    	padding-left: 10px;
+	}
+	p {
+		padding-right: 0px;
+		padding-left: 45px;
+	}
+}

@@ -1,0 +1,31 @@
+.section-cards {
+	background-image: url(../assets/pricing-bg.jpg);
+	background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 650px;
+    margin-top: -95px;
+
+    article {
+    	margin-top: 85px;
+    }
+
+    //@mixin cards($color-title,$color-line,$colir-list,$color-number,$color-button) {
+
+
+    .card-one {
+    	@include cards($color-text,$color-boton-iconos,$color-parrafo,$color-boton-iconos,$color-boton-iconos);
+    }
+
+    .card-two {
+    	@include cards($color-text,$color-boton-iconos,$color-parrafo,$color-orange,$color-boton-iconos);
+    }
+
+    .card-three {
+    	@include cards($color-text,$color-boton-iconos,$color-parrafo,$color-bordo,$color-boton-iconos);
+    }
+
+    .card-for {
+    	@include cards($color-text,$color-boton-iconos,$color-parrafo,$color-red,$color-boton-iconos);
+    }
+
+}

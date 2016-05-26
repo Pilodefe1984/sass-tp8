@@ -1,0 +1,146 @@
+@mixin esferas-info($color) {
+
+	
+		width: 24%;
+		text-align: center;
+		display: inline-block;
+
+		div {
+			width: 125px;
+	    	height: 125px;
+	    	border-radius: 50%;
+	    	background-color: $color;
+	   	 	margin: auto;
+	   	 	margin-top: 90px;
+	   	 	cursor: pointer;
+			-webkit-transition: 0.5s ease-in-out;
+			-moz-transition: 0.5s ease-in-out;
+			-o-transition: 0.5s ease-in-out;
+			transition: 0.5s ease-in-out;
+			&:hover {
+				cursor: pointer;
+				-webkit-transform: scale(1.35);
+				transform: scale(1.35)
+			}
+	   	 	span {
+	   	 		position: relative;
+    			font-size: 60px;
+    			top: 25px;
+    			color: $color-titulo-header;
+	   	 	}
+
+		}
+
+		h3 {
+			font-family: $fuente-titulo;
+			text-transform: uppercase;
+			color: $color-text;
+			font-weight: $titulo-bold;
+			font-size: 14px;
+			letter-spacing: 3px;
+			margin-top: 15px;
+		}
+
+		p {
+			color: $color-parrafo;
+			font-family: $fuente-parrafo;
+			font-size: 11px;
+	    	margin-top: 15px;
+		}
+	
+
+}
+
+//mixin cards
+
+@mixin cards($color-title,$color-line,$colir-list,$color-number,$color-button) {
+		width: 22%;
+		padding: 60px 30px;
+		margin: 1%;
+		text-align: center;
+		box-shadow: 0 0 1em #37332F;
+		color: $color-title;
+		background-color: white;
+		margin-top: 95px;
+		display: inline-block;
+
+		h4 {
+			font-family: $fuente-titulo;
+			font-weight: $titulo-bold;
+			text-transform: uppercase;
+			font-size: 14px;
+    		letter-spacing: 1px;
+		}
+
+		h3 {
+			font-family: $fuente-parrafo;
+			font-weight: $number-bold;
+			font-size: 45px;
+    		margin-top: 10px;
+    		&:before {
+    			content: "$";
+    			font-size: 15px;
+    			position: relative;
+    			top: -19px;
+    			right: 4px;
+    		}
+    		&:after {
+    			content: ".99";
+    			font-size: 15px;
+    			position: relative;
+   				top: -21px;
+    			left: 3px;
+    		}
+		}
+
+		p {
+			font-family: $fuente-parrafo;
+			color: $colir-list;
+			font-style: italic;
+			font-size: 11px;
+		}
+
+		div {
+			
+			margin: auto;
+			margin-top: 40px;
+			height: 1.5px;
+			background-color: $color-line;
+
+		}
+
+		table {
+			margin-top: 40px;
+    		text-align: left;
+    		font-family: $fuente-parrafo;
+    		color: $colir-list;
+    		font-size: 12px;
+    		margin-left: 9px;
+
+    		td {
+    			padding-top: 10px;
+    		}
+
+    		td:nth-child(2){
+    			padding-left: 35px;
+    			color: $color-number;
+    		}
+		}
+
+		a {
+			text-transform: uppercase;
+			text-align: center;
+			color: #fff;
+			padding: 10px 36px;
+			background-color: $color-button;
+			width: 100%;
+			font-family: $fuente-parrafo;
+			font-size: 8px;
+			font-weight: $number-bold;
+			text-decoration: none;
+			letter-spacing: 2px;
+			border-radius: 3px;
+			position: relative;
+    		top: 35px;
+		}
+	}

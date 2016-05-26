@@ -1,0 +1,74 @@
+.header-contact {
+	background-image: url("../assets/indexbanner-bg2.jpg");
+	height: 0px;
+    padding: 232px 0;
+	div {
+		width: 41%;
+		margin: auto;
+		text-align:center;
+
+		h2 {
+			font-family: $fuente-titulo;
+			font-weight: $titulo-bold;
+			color: $color-titulo-header;
+			font-size: 50px;
+			text-transform: capitalize;
+		}
+
+		p {
+			font-family: $fuente-parrafo;
+			color: $color-titulo-header;
+			font-size: 12px;
+			margin-top: 25px;
+			line-height: 25px;
+		}
+	}
+
+}
+
+.cabecera-lista.form {
+	margin-top: 100px;
+	}
+	
+	section {
+		.info-form {
+			display: inline-block;
+			width: 49%;
+			padding: 60px 5px;
+
+			input {
+				width: 100%;
+				height: 35px;
+    			padding: 15px;
+    			margin-top: 15px;
+    			border: 1px solid $color-parrafo;
+			}
+
+			textarea {
+				margin-top: 15px;
+				width: 100%;
+				position: relative;
+    			top: 13px;
+    			height: 135px;
+    			border: 1px solid $color-parrafo;
+    			padding: 15px;
+			}
+
+		}
+
+		.btn-env {
+				width: 200px;
+				margin: auto;
+				padding: 10px 20px;
+				color: $color-titulo-header;
+				font-family: $fuente-titulo;
+				font-size: 10px;
+				background-color: $color-boton-iconos;
+				text-transform: uppercase;
+				display: block;
+				border: none;
+				position: relative;
+    			top: -40px;
+
+			}
+	}

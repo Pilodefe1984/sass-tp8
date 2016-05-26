@@ -1,0 +1,23 @@
+footer {
+	background-color: $color-footer;
+	padding: 20px 0;
+	font-family:$fuente-titulo;
+	color: $color-parrafo;
+	font-size: 12px;
+
+	p {
+		display: inline-block;
+
+	}
+
+	ul {
+		float: right;
+		margin-top: -5px;
+		li {
+			display: inline-block;
+			margin: 5px;
+		}
+	}
+
+
+}

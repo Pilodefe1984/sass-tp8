@@ -1,0 +1,31 @@
+.esfera-uno {
+
+	@include esferas-info($esfera-uno);
+}
+
+.esfera-dos {
+	@include esferas-info($esfera-dos);
+	div {
+		span {
+			top:30px;
+		}
+	}
+}
+
+.esfera-tres {
+	@include esferas-info($esfera-tres);
+	div {
+		span {
+			top:34px;
+		}
+	}
+}
+
+.esfera-cuatro {
+	@include esferas-info($esfera-cuatro);
+	div {
+		span {
+			top:31px;
+		}
+	}
+}

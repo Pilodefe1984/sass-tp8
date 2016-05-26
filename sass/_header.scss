@@ -1,0 +1,64 @@
+header { 
+	height: 500px;
+	background-image: url("../assets/indexbanner-bg3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+
+    .titulo {
+    	width: 50%;
+    	margin-left: 6%;
+    	margin-top: 10%;
+
+    	h1 {
+    		font-family: $fuente-titulo;
+    		color: $color-titulo-header;
+    		font-size: 40px;
+            font-weight: 800;
+            text-transform: capitalize;
+    	}
+
+    	p {
+    		font-family: $fuente-parrafo;
+    		color: $color-titulo-header-darken;
+    		font-size: 14px;
+    		padding-top: 43px;
+    		line-height: 32px;
+
+    	}
+    }
+
+    form {
+    	width: 100%;
+    	margin: auto;
+    	margin-top: 210px;
+
+    	.busqueda {
+    		width: 79%;
+    		height: 60px;
+    		border: none;
+    		padding-left:15px;
+
+    	}
+
+    	.btn-search {
+    		width: 19%;
+    		height: 60px;
+    		border: none;
+    		background-color: $color-boton-iconos;
+    		color: $color-titulo-header;
+    		font-family: $fuente-titulo;
+    		font-weight: $titulo-bold;
+    		text-transform: uppercase;
+    		margin-left: -4px;	
+    	}
+
+    	span {
+    		position: relative;
+    		right: 135px;
+    		color: $color-titulo-header;
+    		font-size: 15px;
+    	}
+
+    }
+}

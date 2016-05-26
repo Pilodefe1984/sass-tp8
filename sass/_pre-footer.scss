@@ -1,0 +1,19 @@
+.pre-footer {
+	padding: 120px 0;
+	text-align: center;
+	background-color: $color-pre-footer;
+	margin-top: 100px;
+
+	p {
+		font-family: $fuente-titulo;
+		color: $color-titulo-header;
+		font-size: 35px;
+
+		span {
+			font-weight: $titulo-bold;
+			color: blue;
+			font-family: $fuente-parrafo;
+			color: $color-boton-iconos;
+		} 
+	} 
+}

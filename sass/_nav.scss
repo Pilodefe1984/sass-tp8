@@ -1,0 +1,27 @@
+nav {
+	
+		img {
+			display: inline-block;
+		}
+
+		ul {
+			float: right;
+
+			li {
+				display: inline-block;
+				font-family: $fuente-parrafo;
+				text-transform: uppercase;
+				color: $color-text;
+				font-weight: $titulo-bold;
+				font-size: 10px;
+				padding: 10px;
+			}
+			@media screen and (max-width: 1020px) {
+				float: none;
+				display: block;
+				width: 200px;
+				margin: auto;
+				text-align: center;
+			}
+		}    
+	}
